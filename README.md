@@ -1,4 +1,4 @@
-# zsc-genesis-contracts
+# zsc-genesis-contracts (Fork from bsc-genesis-contracts)
 
 This repo hold all the genesis contracts on BNB Smart chain. More details in [doc-site](https://docs.bnbchain.org/docs/learn/system-contract).
 
@@ -29,7 +29,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 nvm install 18.17.0 && nvm use 18.17.0
 ```
 
-## Unit test.
+## Unit test
 
 You can get a free archive node endpoint from https://nodereal.io/.
 
@@ -46,7 +46,7 @@ bash scripts/flatten.sh
 
 All system contracts will be flattened and output into `${workspace}/contracts/flattened/`.
 
-## How to generate genesis file.
+## How to generate genesis file
 
 1. Edit `init_holders.js` file to alloc the initial BNB holder.
 2. Edit `validators.js` file to alloc the initial validator set.
